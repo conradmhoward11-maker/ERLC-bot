@@ -6,7 +6,7 @@ module.exports = {
     .setName('serverinfo')
     .setDescription('View the current server status'),
     async execute(interaction, client) {
-        fetch (`https://api.policeroleplay.community/v1/server`, {
+        fetch (`https://api.erlc.gg/v2/server`, {
             headers: {
                 "Server-Key": process.env.serverToken
   },
